@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Debanjan's-Protfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 80px;
+        background-color: rgb(43, 21, 66);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+      }
+      nav ul li a:hover {
+        color: rgb(90, 64, 118);
+        font-size: 1.04rem;
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 50px 0;
+      }
+      .firstsection > div {
+        width: 40%;
+      }
+      .leftsection {
+        font-size: 2.25rem;
+      }
+      .leftsection .button{
+        padding:15px;
+      }
+      .leftsection .btn{
+        padding: 13px;
+        background-color: #1e2167;
+        color:white;
+        font-size:20px;
+        border: 2px solid white;
+        border-radius:6px;
+        cursor:pointer;
+      }
+      .rightsection img {
+        width: 80%;
+      }
+      .purple {
+        color: rgb(178, 135, 219);
+      }
+      #element {
+        color: rgb(178, 135, 219);
+      }
+      .secondsection {
+        max-width: 80vw;
+        margin-left: 65px;
+        height: 80vh;
+      }
+      main hr {
+        border: 0;
+        background-color: #9c97f1;
+        height: 1.2px;
+        margin: 40px 84px;
+      }
+      .secondsection h1 {
+        font-size: 1.6rem;
+      }
+      #Text-Gray {
+        color: gray;
+      }
+      .secondsection .box {
+        background-color: white;
+        width: 80vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secondsection .vertical {
+        height: 90px;
+        width: 2px;
+        background-color: white;
+        margin: 0 100px;
+      }
+      .vertical-title {
+        position: relative;
+        top: 25px;
+        width: 150px;
+        margin-left: -120px;
+      }
+      .vertical-desc {
+        position: relative;
+        top: 75px;
+        margin-left: -147px;
+        color: gray;
+        width: 150px;
+        font-size: 12px;
+      }
+      .image-top {
+        width: 63px;
+        height: 50px;
+        position: relative;
+        top: -32px;
+        margin-left: 0px;
+      }
+      footer {
+        background-color: rgb(3, 33, 60);
+        height: 230px;
+      }
+      .footer {
+        display: flex;
+        padding: 20px 120px;
+        justify-content: space-evenly;
+      }
+      .footer ul li {
+        list-style: none;
+      }
+      .footer ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.02em;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Debanjan's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hii, My Name is <span class="purple"> Debanjan</span>
+          <div>And I am a passionate</div>
+          <span id="element"></span>
+          <div class="button">
+          <button class="btn">Download Resume</button>
+          <button class="btn">Visit Github</button>
+        </div>
+        </div>
+        <div class="rightsection">
+          <img src="web-design.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondsection">
+        <span class="Text-Gray">What I have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical"></div>
+          <img class="image-top" src="html.png" alt="" />
+          <div class="vertical-title">HTML Developer</div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit esse
+            voluptatem temporibus facere distinctio laborum, perferendis error
+            mollitia eius vel rerum? Fugiat earum doloremque ducimus, in amet
+            reiciendis dicta placeat.
+          </div>
+          <div class="vertical"></div>
+          <img class="image-top" src="css.png" alt="" />
+          <div class="vertical-title">CSS Developer</div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit esse
+            voluptatem temporibus facere distinctio laborum, perferendis error
+            mollitia eius vel rerum? Fugiat earum doloremque ducimus, in amet
+            reiciendis dicta placeat.
+          </div>
+          <div class="vertical"></div>
+          <img class="image-top" src="js.jpeg" alt="" />
+          <div class="vertical-title">JS Developer</div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit esse
+            voluptatem temporibus facere distinctio laborum, perferendis error
+            mollitia eius vel rerum? Fugiat earum doloremque ducimus, in amet
+            reiciendis dicta placeat.
+          </div>
+          <div class="vertical"></div>
+          <img class="image-top" src="front.png" alt="" />
+          <div class="vertical-title">Frontend Developer</div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit esse
+            voluptatem temporibus facere distinctio laborum, perferendis error
+            mollitia eius vel rerum? Fugiat earum doloremque ducimus, in amet
+            reiciendis dicta placeat.
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Debanjan's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">More Info</a></li>
+            <li><a href="/">Resume</a></li>
+          </ul>
+        </div>
+        <div class="footer-third"></div>
+        <div class="footer-fourth"></div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer",
+          "Graphic Designer",
+          "Video Editor",
+          "Web Designer",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
